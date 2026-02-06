@@ -3,10 +3,15 @@ document.querySelectorAll(".event-title").forEach(button => {
     const content = button.nextElementSibling;
 
     document.querySelectorAll(".event-content").forEach(c => {
-      if (c !== content) c.style.display = "none";
+      if (c !== content) {
+        c.style.maxHeight = null;
+      }
     });
 
-    content.style.display =
-      content.style.display === "block" ? "none" : "block";
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
   });
 });
