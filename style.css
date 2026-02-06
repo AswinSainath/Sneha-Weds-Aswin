@@ -30,7 +30,7 @@ body {
 }
 
 .side-floral {
-  position: fixed;     /* stays in place when scrolling */
+  /*position: fixed;*/     /* stays in place when scrolling */
   top: 0;
   width: 80px;          /* adjust size */
   height: 50vh;        /* full height */
