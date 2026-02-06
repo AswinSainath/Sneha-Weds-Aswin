@@ -39,6 +39,11 @@ body {
   height: auto;
 }
 
+.venue h2 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px;
+}
+
 
 header {
   background: #8b0000;
