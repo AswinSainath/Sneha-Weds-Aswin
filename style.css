@@ -30,10 +30,10 @@ body {
 }
 
 .side-floral {
-  /*position: fixed;      /* stays in place when scrolling */
+  /*position: fixed;*/      /* stays in place when scrolling */
   top: 0;
   width: 80px;          /* adjust size */
-  height: 300px;        /* full height */
+  height: 40vh;        /* full height */
   z-index: 1000;        /* above background but behind content */
   pointer-events: none; /* allows clicking through */
 }
