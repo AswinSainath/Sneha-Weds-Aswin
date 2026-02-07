@@ -61,6 +61,15 @@ body {
   margin-bottom: 20px;
 }
 
+.timeline-img {
+  width: 100%;           /* Full width */
+  max-width: 600px;      /* Optional: limit max size */
+  display: block;
+  margin: 20px auto;     /* Center horizontally and give spacing */
+  border-radius: 10px;   /* Rounded corners for elegance */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* subtle shadow */
+}
+
 
 header {
   background: #8b0000;
