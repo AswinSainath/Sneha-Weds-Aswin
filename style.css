@@ -46,6 +46,15 @@ body {
   right: 0;
 }
 
+.click-hint {
+  text-align: center;       /* Centers the text */
+  color: #8b0000;           /* Deep red color matching your theme */
+  font-weight: 600;         /* Slightly bold */
+  margin-bottom: 25px;      /* Space between hint and timeline */
+  font-size: 1rem;          /* Adjust size if needed */
+  font-family: "Playfair Display", serif;  /* Optional elegant font */
+}
+
 
 .venue h2 {
   font-family: "Playfair Display", serif;
