@@ -49,9 +49,9 @@ body {
 .click-hint {
   text-align: center;       /* Centers the text */
   color: #8b0000;           /* Deep red color matching your theme */
-  font-weight: 600;         /* Slightly bold */
+  font-weight: 400;         /* Slightly bold */
   margin-bottom: 25px;      /* Space between hint and timeline */
-  font-size: 1rem;          /* Adjust size if needed */
+  font-size: 0.5rem;          /* Adjust size if needed */
   font-family: "Playfair Display", serif;  /* Optional elegant font */
 }
 
